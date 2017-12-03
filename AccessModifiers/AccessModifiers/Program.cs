@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AccessModifiers
 {
-    public class Person
+    public class Person //ACCESS MODIFIERS CREATE SECURITY & SEPARATE ROLES. PREVENT OTHER CLASSES FROM READING INTO OTHERS
     {
         private DateTime _birthdate;
         public void SetBirthdate(DateTime birthdate)
