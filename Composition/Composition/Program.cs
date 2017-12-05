@@ -15,7 +15,7 @@ namespace Composition //A kind of rltnshp btw 2 classes that allows one to conta
             var logger = new Logger();
             var installer = new Installer(logger);
 
-            dbMigrator.Migrate();
+            dbMigrator.Migrate()
 
             installer.Install();
         }
