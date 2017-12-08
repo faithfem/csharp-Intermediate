@@ -10,7 +10,7 @@ namespace Constructorsii
     {
         static void Main(string[] args)
         {
-            var car = new Car("ABC 123";
+            var car = new Car("ABC 123");
 
         }
     }
