@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace Casting
 {
@@ -11,13 +12,8 @@ namespace Casting
     {
         static void Main(string[] args)
         {
-            Text text = new Text();
-            Shape shape = text;
-
-            text.Width = 200;
-            shape.Width = 100;
-
-            Console.WriteLine(text.Width);
+            Shape shape = new Text();
+            Text text = (Text)shape;
         }
     }
 }
