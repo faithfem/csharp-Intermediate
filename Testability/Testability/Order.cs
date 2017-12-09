@@ -1,6 +1,6 @@
 ﻿namespace Testability
 {
-    public class Order
+    public class Orde
     {
 
     }

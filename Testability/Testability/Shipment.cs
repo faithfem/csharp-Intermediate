@@ -1,6 +1,6 @@
 ﻿namespace Testability
 {
-    public class Shipment
+    public class Shipmen
     {
 
     }
