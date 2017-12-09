@@ -1,4 +1,4 @@
-﻿namespace Testability
+﻿namespace Testabilit
 {
     public interface IShippingCalculator
     {
